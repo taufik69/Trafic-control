@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                         Registration part css start                        */
+/* -------------------------------------------------------------------------- */
+.left {
+  background-image: url(../images/left.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  aspect-ratio: 16/17;
+  position: relative;
+}
+.left::after {
+  position: absolute;
+  content: url(../images/after.png);
+  right: 0;
+  top: 0;
+  transfro
+}
+
+/* -------------------------------------------------------------------------- */
+/*                         Registration part css End                        */
+/* -------------------------------------------------------------------------- */
