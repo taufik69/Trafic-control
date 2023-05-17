@@ -15,6 +15,7 @@ img {
 }
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-color: #eef1f6;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -27,15 +28,101 @@ body {
   background-repeat: no-repeat;
   aspect-ratio: 16/17;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .left::after {
   position: absolute;
   content: url(../images/after.png);
   right: 0;
   top: 0;
-  transfro
+  transform: scaleY(112.99%);
+}
+.left .left-content {
+  text-align: center;
+}
+.left .left-content h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.left .left-content p {
+  color: #fff;
+  margin-bottom: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  max-width: 500px;
+}
+.left .left-content .social-icon {
+  padding-top: 20px;
+}
+.left .left-content .social-icon a {
+  padding: 13px 14px;
+  background: #fff;
+  font-size: 20px;
+  margin-left: 6px;
+  border-radius: 3px;
+}
+.left .left-content .social-icon a .fa-facebook-f {
+  padding: 0 4px;
+  transition: all linear 0.3s;
+}
+.left .left-content .social-icon a .fa-twitter {
+  color: #00ffffa4;
+  transition: all linear 0.3s;
+}
+.left .left-content .social-icon a .fa-google {
+  color: red;
+  transition: all linear 0.3s;
+}
+.left .left-content .social-icon a .fa-linkedin-in {
+  padding: 0 2px;
+  transition: all linear 0.3s;
 }
 
+.left .left-content .social-icon a:hover i {
+  transform: translate3d(0, -10px, 0px);
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 16/17;
+}
+.right .right-content marquee {
+  padding-bottom: 40px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #040404;
+}
+.right .right-content .form-control {
+  padding-right: 250px;
+  outline: 0;
+  background-color: #fff;
+}
+.right .right-content .form-control:focus {
+  box-shadow: inset 0 -2px 0 #e89d1f;
+}
+.right .right-content .form-check {
+  padding-top: 20px;
+  font-size: 16px;
+}
+.right .right-content button {
+  padding: 10px 350px;
+  margin-top: 30px;
+  background: #e89d1f;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  color: white;
+  transition: all linear 0.2s;
+}
+.right .right-content button:hover {
+  background-color: #e6c33e;
+}
 /* -------------------------------------------------------------------------- */
 /*                         Registration part css End                        */
 /* -------------------------------------------------------------------------- */
