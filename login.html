@@ -24,7 +24,7 @@
     <!-- ----------------------------------------------------------------------- -->
     <!--                            Registration part Start                           -->
     <!-- ----------------------------------------------------------------------- -->
-    <section class="registration">
+    <section class="registration login">
       <div id="particles-js"></div>
       <div class="row">
         <div class="col-lg-6">
@@ -47,21 +47,12 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="right">
-            <div class="right-content">
+          <div class="right login-right">
+            <div class="right-content login-right-content">
               <marquee behavior="alternate" direction="left"
-                >Create an acount</marquee
+                >Login an acount</marquee
               >
-              <form action="/login.html" method="post">
-                <div class="form-floating mb-4">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="name@example.com"
-                  />
-                  <label for="floatingInput">Full Name</label>
-                </div>
+              <form action="#" method="post">
                 <div class="form-floating mb-4">
                   <input
                     type="email"
@@ -80,22 +71,12 @@
                   />
                   <label for="floatingPassword">Password</label>
                 </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckDefault"
-                  />
-                  <label class="form-check-label" for="flexCheckDefault">
-                    I agree to theterms of service
-                  </label>
-                </div>
-                <div class="navigate-login">
-                  <a href="login.html">Already have an account</a>
+
+                <div class="navigate-login for-login-page">
+                  <a href="index.html">don't have an account</a>
                 </div>
 
-                <button type="submit">Registration</button>
+                <button type="submit" class="login-btn">Login</button>
               </form>
             </div>
           </div>
