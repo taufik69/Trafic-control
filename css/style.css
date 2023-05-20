@@ -162,8 +162,11 @@ body {
   height: 100%;
   position: absolute;
   background-color: #eef1f6;
-  transform: translate(44%, 9%);
+  /* transform: translate(44%, 9%); */
+  transform: translate(4%, 9%);
+  z-index: -1;
 }
+
 .home {
   position: relative;
 }
@@ -175,7 +178,6 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
-  /* z-index: 1; */
 }
 .home .withphoto {
   background: url("../images/withphoto.jpg");
@@ -242,4 +244,55 @@ body {
 
 /* -------------------------------------------------------------------------- */
 /*                         Home part css End                        */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                        maindashboard part css start                        */
+/* -------------------------------------------------------------------------- */
+
+.customnav {
+  background-color: #e89e1f !important;
+}
+.customnav .customul .customli {
+  margin-left: 25px;
+}
+.customnav .customul .customli .anchor {
+  color: #ffffffd8;
+}
+.imgcustomization .imgdiv img {
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.customindicator .active {
+  background-color: red !important;
+}
+#heading {
+  padding: 20px 0;
+  background: #000000ec;
+}
+#heading .title h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+#submisson_part {
+  padding: 10px 0;
+  background: url("../images/footer.jpg");
+  height: 30vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#submisson_part .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                        maindashboard part css start                        */
 /* -------------------------------------------------------------------------- */
