@@ -292,6 +292,14 @@ body {
   justify-content: center;
   height: 30vh;
 }
+.alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  margin: 20px;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                        maindashboard part css start                        */
